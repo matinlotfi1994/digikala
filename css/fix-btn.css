@@ -1,0 +1,50 @@
+.fix-headphone {
+    width: 48px;
+    height: 48px;
+    background-color: #ef4056;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    svg {
+        font-size: 25px;
+        color: white;
+    }
+}
+
+.fix-market {
+    width: fit-content;
+    height: 48px;
+    background-color: green;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+    z-index: 6;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    p {
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 2.15;
+        padding-right:20px;
+        font-family: IranYekan;
+    }
+    svg{
+        color: white;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+}

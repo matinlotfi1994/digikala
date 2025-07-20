@@ -1,0 +1,178 @@
+.baners-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+    .row {
+        width: 90%;
+        height: 242px;
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+
+        .image-baner {
+            width: 25%;
+            height: 100%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 20px;
+            }
+        }
+    }
+
+    .market-baner {
+        width: 90%;
+        height: 110px;
+        background-color: #ECEFEE;
+        border-radius: 20px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        padding: 20px 45px;
+        align-items: center;
+        box-sizing: border-box;
+
+        .right-market {
+            width: 40%;
+            height: 100%;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            justify-content: start;
+            gap: 20px;
+
+            h1 {
+                color: white;
+                font-size: 14px;
+                font-weight: 700;
+                font-family: IranYekan;
+                padding: 10px 20px;
+                background-color: #029A49;
+                border-radius: 30px;
+                box-sizing: border-box;
+            }
+        }
+
+        .left-market {
+            width: 60%;
+            height: 100%;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            justify-content: end;
+            gap: 10px;
+
+            .product-market {
+                width: 74px;
+                height: 74px;
+                background-color: white;
+                padding: 10px;
+                box-sizing: border-box;
+                border-radius: 50%;
+                position: relative;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 15px;
+                }
+
+                span {
+                    color: white;
+                    font-size: 12px;
+                    font-weight: 700;
+                    font-family: IranYekan;
+                    background-color: crimson;
+                    padding: 5px 10px;
+                    box-sizing: border-box;
+                    border-radius: 30px;
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                }
+            }
+
+            p {
+                width: fit-content;
+                height: fit-content;
+                color: #029A49;
+                background-color: white;
+                font-size: 14px;
+                font-weight: 700;
+                font-family: IranYekan;
+                padding: 20px 25px;
+                cursor: pointer;
+                border-radius: 30px;
+
+            }
+        }
+    }
+
+    h3 {
+        width: 90%;
+        height: fit-content;
+        text-align: center;
+        font-size: 21px;
+        font-weight: 500;
+        font-family: IranYekan;
+        line-height: 2.1;
+    }
+
+    .category {
+        width: 85%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        gap: 72px;
+        padding-bottom: 40px;
+
+        .product {
+            width: fit-content;
+            height: fit-content;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            img {
+                width: 110px;
+                height: 110px;
+            }
+
+            p {
+                font-size: 12px;
+                font-weight: 500;
+                font-family: IranYekan;
+
+            }
+        }
+    }
+    .row-3 {
+        width: 90%;
+        height: 265px;
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+
+        .image-baner-row3 {
+            width: 50%;
+            height: 100%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 20px;
+            }
+        }
+    }
+}

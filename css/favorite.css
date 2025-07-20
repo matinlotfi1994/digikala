@@ -1,0 +1,77 @@
+.favorite-container {
+    width: 100%;
+    height: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+    .favorite {
+        width: 90%;
+        height: 100%;
+        border: 1px solid lightgrey;
+        box-sizing: border-box;
+        border-radius: 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 24px 0px;
+
+        .paragraf {
+            width: 100%;
+            height: 20%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            font-size: 21px;
+            font-weight: 500;
+            line-height: 2.1;
+            gap: 3px;
+            font-family: IranYekan;
+
+            svg {
+                color: rgb(203, 203, 58);
+            }
+        }
+
+        .favorite-swiper {
+            width: 100%;
+            height: 100%;
+
+            .favorite-baner {
+                width: 100%;
+                height: 100%;
+            }
+
+            .swiper-slide {
+                width: 100%;
+                text-align: center;
+                font-size: 18px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-left: 1px solid lightgrey;
+                box-sizing: border-box;
+                img{
+                    width:110px;
+                    height: 110px;
+                    object-fit: contain;
+                }
+            }
+
+            @media (max-width: 760px) {
+                .swiper-button-next {
+                    right: 20px;
+                    transform: rotate(90deg);
+                    z-index: 5;
+                }
+
+                .swiper-button-prev {
+                    left: 20px;
+                    transform: rotate(90deg);
+                    z-index: 5;
+                }
+            }
+        }
+    }
+}
